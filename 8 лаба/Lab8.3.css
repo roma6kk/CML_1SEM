@@ -1,0 +1,48 @@
+.submenu li {
+    display: block;
+    background-color: #FFA07A;
+    width: 90px;
+    height: auto;
+    margin-bottom: -2px;
+    border: 2px dashed black;
+    padding: 6px;
+}
+.submenu a:visited{
+    color:black;
+}
+.submenu a:link{
+    color: black;
+}
+.mainmenu li{
+    list-style-type: none;
+}
+.mainmenu a{
+    text-decoration: none;
+}
+
+.submenu {
+    background: white;
+    position: absolute;
+    visibility: hidden;
+    left: 8px;
+    height: auto;
+}
+
+.menu{
+    padding-left: 7px;
+    padding-top: 7px;
+    display: inline-block;
+    background-color: yellow;
+    width: 180px;
+    height: 30px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+.mainmenu > li{
+    width: 180px;
+}

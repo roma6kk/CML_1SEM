@@ -1,0 +1,12 @@
+.gallery {
+    display: flex;
+}
+
+.gallery figure {
+    margin: 70px;
+    text-align: center;
+}
+img{
+    width: 220px;
+    height: 250px;
+}

@@ -1,0 +1,22 @@
+table {
+
+    empty-cells: hide;
+    border-color: black;
+    border-spacing: 0;
+}
+.smartphone{
+    background-color:#00BFFE  ;
+}
+.procent{
+    background-color: purple;
+}
+.plusprocent{
+    background-color: green;
+}
+.ftrow {
+    color: white;
+}
+caption{
+    font-size: 1.2em;
+    text-align: center;
+}

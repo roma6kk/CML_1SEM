@@ -1,0 +1,45 @@
+.one-half.column:first-child {
+    background-image: url(https://sun6-20.userapi.com/s/v1/if1/POp5Rq8TkPAlD4BjGwpeOEjKMQZAgjFwaSiFGRs4Njs1K4lhcTpdy0sMF-eEeuX_NtY9Eu8z.jpg?size=686x730&quality=96&crop=0,0,686,730&ava=1);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.row:first-child {
+    height: auto;
+    background-color: #666666;
+    padding: 10px 10px 0px 10px;
+
+}
+
+.row:nth-child(2) {
+    height: auto;
+    background-color: #666666;
+    padding: 20px 10px 0px 10px;
+}
+
+.row:nth-child(3) {
+    height: auto;
+    background-color: #666666;
+    padding: 0px 10px 0px 10px;
+}
+.three.columns{
+    font-size: 18px;
+}
+
+ul li {
+    list-style: none;
+    text-align: left;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 35px;
+}
+ul li a:hover{
+    color: white;
+}
+
+html {
+    background-color: gray;
+}

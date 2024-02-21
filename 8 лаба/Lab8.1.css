@@ -1,0 +1,39 @@
+.nav {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    padding-bottom: 45px;
+    margin: 50px;
+    font-weight:bolder;
+    text-align: center;
+}
+
+aside {
+    float: right;
+    border: solid 1px;
+    margin-left: 2px;
+}
+
+p {
+    display: inline;
+    font-size: 18px;
+}
+
+.link:link {
+    text-decoration: none;
+    color: red;
+}
+
+.visit:visited {
+    color: #8B0000;
+}
+
+.hover:hover {
+    color: green;
+}
+
+.active:active {
+    color: rgb(184, 134, 11);
+}

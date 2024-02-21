@@ -1,0 +1,60 @@
+.grid-container{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100% 100% 100% 100%;
+}
+.grid-container div{
+    border: 1px solid black;
+    background-size: cover;
+}
+
+.img9{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start:2; 
+    grid-row-end:4;
+    background-image: url(https://sites.psu.edu/art168zjn/files/2016/09/GIF-vid-new-1nqbdqv.gif);
+}
+.img10{
+    grid-column: 1/3;
+    grid-row: 3/5;
+    background-image: url(https://www.osu.edu/impact/_nuxt/images/growingbuckeyetrees_1200x675.gif);
+}
+.img1{
+    background-image: url(http://s2.fotokto.ru/photo/full/520/5209401.jpg);
+}
+.img2{
+    background-image: url(https://i.pinimg.com/originals/ba/36/8b/ba368b26351d523087b0628f06c51bae.jpg);
+}
+.img3{
+    background-image: url(https://i.pinimg.com/originals/ba/36/8b/ba368b26351d523087b0628f06c51bae.jpg);
+}
+.img4{
+    background-image: url(https://static.tildacdn.com/stor6462-6635-4531-a436-616466366662/34112865.jpg);
+}
+.img5{
+    background-image: url(https://fikiwiki.com/uploads/posts/2022-02/1644976745_9-fikiwiki-com-p-derevya-krasivie-kartinki-11.jpg);
+}
+.img6{
+    background-image: url(https://get.wallhere.com/photo/sunlight-trees-forest-nature-branch-oak-tree-autumn-leaf-flower-plant-woodland-grove-habitat-natural-environment-botany-land-plant-flowering-plant-woody-plant-ecosystem-deciduous-152821.jpg);
+}
+.img7{
+    background-image: url(https://traveltimes.ru/wp-content/uploads/2021/07/1299-990x831-1.jpg);
+}
+.img8{
+    background-image: url(https://gagaru.club/uploads/posts/2023-02/1677076682_gagaru-club-p-derevo-krasivoe-vkontakte-60.jpg);
+}
+
+.img11{
+background-image: url(https://i.pinimg.com/originals/49/8f/c7/498fc71642f509dfff96b2b16806d165.jpg);
+}
+.img12{
+    background-image: url(http://vsegda-pomnim.com/uploads/posts/2022-04/1649577067_11-vsegda-pomnim-com-p-krona-dereva-foto-13.jpg);
+}
+.img13{
+    background-image: url(https://cdn.pixabay.com/photo/2015/03/29/01/54/tree-696839_1280.jpg);
+}
+.img14{
+    background-image: url(https://prixoxo.ru/uploads/posts/2021-07/derevja-kartinki-i-krasivye-foto-10.jpg);
+}

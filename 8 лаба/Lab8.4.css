@@ -1,0 +1,76 @@
+nav ul {
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    margin-right: 10px;
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+    text-align: right;
+    border: 1px solid black;
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul ul {
+    visibility: hidden;
+    position: absolute;
+}
+
+nav ul li:hover>ul {
+    visibility: visible;
+}
+
+nav ul ul li {
+    display: block;
+    text-align: center;
+}
+
+a.bgtu {
+    background: url(facultet.png) no-repeat 0 0;
+    width: 80px;
+    height: 30px;
+    display: block;
+}
+
+a.it {
+    background: url(facultet.png) no-repeat 0 0;
+    width: 80px;
+    height: 30px;
+    display: block;
+}
+
+a.pim {
+    background: url(facultet.png) no-repeat 0 0;
+    width: 80px;
+    height: 30px;
+    display: block;
+}
+
+a.htit {
+    background: url(facultet.png) no-repeat 0 0;
+    width: 80px;
+    height: 30px;
+    display: block;
+}
+
+a.it:hover {
+    background-position: 0 -30px;
+}
+
+a.htit:hover {
+    background-position: 0 -60px;
+}
+
+a.pim:hover {
+    background-position: 0 -90px;
+}

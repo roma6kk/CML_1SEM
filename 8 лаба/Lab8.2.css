@@ -1,0 +1,417 @@
+/*LAB8*/
+nav li{
+    display: inline;
+    list-style-type: none;
+}
+nav input{
+    margin-right: -26px;
+    display: inline;
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    color: green;
+    border: 2px solid green;
+}
+nav input:hover{
+    background-color: yellowgreen;
+}
+nav a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: whitesmoke;
+}
+/*ЗАДАНИЕ 1*/
+.trnsf-scale,
+.trnsf-rotate,
+.trnsf-trns,
+.trnsf-skew {
+    width: 270px;
+    height: 270px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.trnsf-scale:hover {
+    transform: scale(0.5);
+}
+
+.trnsf-rotate:hover {
+    transform: rotate(45deg);
+}
+
+.trnsf-trns:hover {
+    transform: translate(40px);
+}
+
+.trnsf-skew:hover {
+    transform: skew(20deg);
+}
+
+/*ЗАДАНИЕ 2*/
+.trnsf-prsp,
+.trnsf-prsp-right,
+.trnsf-prsp,
+.trnsf-prsp-left {
+    width: 270px;
+    height: 270px;
+    display: inline;
+    margin: 30px;
+}
+
+.trnsf-prsp {
+    transform: perspective(6cm) rotateX(20deg);
+}
+
+.trnsf-prsp-right {
+    transform: perspective(6cm) rotateY(20deg);
+}
+
+.trnsf-prsp {
+    transform: perspective(6cm) rotateX(20deg);
+}
+
+.trnsf-prsp-left {
+    transform: perspective(6cm) rotateY(-20deg);
+}
+
+/*ЗАДАНИЕ 3*/
+input {
+    display: inline;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border: 0;
+    background-color: whitesmoke;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+}
+
+.button2:hover {
+    box-shadow: 0 0 0 6px red, 0 0 0 12px yellow;
+}
+
+.button3:hover {
+    border-bottom: 5px solid green;
+    border-top: 5px solid green;
+}
+
+.button4:hover {
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+}
+
+.button5:hover {
+    background-image: repeating-radial-gradient(circle, #F6DD42, #FF17E6 60%, #02FEFC);
+}
+
+/*ЗАДАНИЕ 4*/
+.img1,
+.img2,
+.img3,
+.img4 {
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    margin: 10px;
+    display: inline-block;
+    width: 330px;
+    height: 500px;
+}
+
+.img1 {
+    animation-name: img1;
+}
+
+.img2 {
+    animation-name: img2;
+}
+
+.img3 {
+    animation-name: img3;
+}
+
+.img4 {
+    animation-name: img4;
+}
+
+@keyframes img1 {
+    0% {
+        transform: rotateY(45deg)
+    }
+
+    50% {
+        transform: translate(900px, 0px);
+    }
+
+    100% {}
+}
+
+@keyframes img2 {
+    0% {
+        transform: translate(-300px, 0px) rotateY(45deg);
+    }
+
+    50% {
+        transform: translate(600px);
+    }
+
+    100% {
+        filter: blur(10px);
+    }
+}
+
+@keyframes img3 {
+    0% {
+        transform: translate(-600px, 0px) rotateY(45deg);
+    }
+
+    50% {
+        transform: translate(300px);
+    }
+
+    100% {
+        filter: grayscale(1)
+    }
+}
+
+@keyframes img4 {
+    0% {
+        transform: translate(-900px, 0px) rotateY(45deg);
+    }
+
+    50% {
+        transform: translate(0px);
+    }
+
+    100% {
+        filter: invert(1)
+    }
+}
+
+/*ЗАДАНИЕ 5*/
+.ex5 {
+    animation-name: ex5;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    border: 5px solid black;
+    width: 1000px;
+    height: 700px;
+    margin: 10px;
+    transition-timing-function: linear;
+}
+
+@keyframes ex5 {
+    0% {
+        background-image: url(https://memasno.ru/uploads/posts/2022-10/memy-s-dubom-chto-za-trend-mudroe-misticheskoe-derevo-11.jpg);
+    }
+
+    20% {
+        background-image: url(https://i.pinimg.com/originals/70/70/e8/7070e81aa2602302bd79198e2d5f857d.jpg);
+    }
+
+    40% {
+        background-image: url(https://cdn131.picsart.com/317966622013211.png);
+    }
+
+    60% {
+        background-image: url(https://i.ytimg.com/vi/ILENPMTG-HY/maxresdefault.jpg?7857057827);
+    }
+
+    80% {
+        background-image: url(https://memasno.ru/uploads/posts/2022-10/memy-s-dubom-chto-za-trend-mudroe-misticheskoe-derevo-11.jpg);
+    }
+
+    100% {
+        background-image: url(https://www.louisdallaraphotography.com/wp-content/uploads/2017/12/angel-oak-sale-4.jpg);
+    }
+}
+
+/*ЗАДАНИЕ 6*/
+.img41 {
+    display: block;
+    animation-name: img41;
+    width: 450px;
+    height: 450px;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    margin: 30px;
+}
+
+@keyframes img41 {
+    0% {}
+
+    50% {
+        transform: translate(200px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.img42 {
+    margin: 30px;
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    animation-name: img42;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes img42 {
+    0% {}
+
+    50% {
+        transform: translateX(100%) scale(0.5);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.img43 {
+    margin: 30px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    animation-name: img43;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes img43 {
+    from {
+        transform: translateX(-390%);
+    }
+
+    to {
+        transform: translateX(350%);
+    }
+}
+
+.img44 {
+    margin: 50px;
+    display: block;
+    width: 100%;
+    height: 200px;
+    animation-name: img44;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img44 {
+    0% {}
+
+    50% {
+        transform: translateY(50px)
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.sqr {
+    margin: 60px;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+}
+
+.img45 {
+    width: 100px;
+    height: 100px;
+    animation-name: img45;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    background: url(https://www.louisdallaraphotography.com/wp-content/uploads/2017/12/angel-oak-sale-4.jpg) no-repeat;
+    background-size: cover;
+}
+
+@keyframes img45 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 100%;
+        top: 0;
+    }
+
+    50% {
+        left: 100%;
+        top: 100%;
+    }
+
+    75% {
+        left: 0;
+        top: 100%;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+/*ЗАДАНИЕ 7*/
+.ex7{
+    border: 1px solid black;
+    margin-top: 850px; 
+    margin-left: 600px;   
+    width: 300px;
+    height: 300px;
+    animation-name: ex7;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ex7{
+    0%{color: green;}
+    25%{color: greenyellow;}
+    50%{color: yellow;}
+    75%{color: yellowgreen;}
+    100%{color: green;}
+}
