@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Lab13.xsl"?>
+<publications>
+  <publication>
+    <date>2021-03-15</date>
+    <title>Web Programming</title>
+    <author>Chrisbates</author>
+  </publication>
+  <publication>
+    <date>2022-02-10</date>
+    <title>Internet world-ww</title>
+    <author>Ditel</author>
+  </publication>
+  <publication>
+    <date>2020-12-02</date>
+    <title>Computer Networks</title>
+    <author>Foruouzan</author>
+  </publication>
+</publications>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body, svg{
+            width: 100%;
+            height: 100%;
+        }
+        ellipse:active{
+            fill: blue;
+        }
+        polygon:hover{
+            stroke: red;
+        }
+    </style>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="green" />
+                <stop offset="100%" stop-color="orange" />
+            </linearGradient>
+        </defs>
+        <circle cy="90" cx="90" r="50" fill="blue">
+        </circle>
+        <rect y="45" x="180" width="100" height="100" fill="red" stroke="black">
+            <animate attributeName="stroke-width" from="0px" to="15px" dur="5s" />
+        </rect>
+        <ellipse cy="90" cx="430" rx="100" ry="40" fill="green">
+        </ellipse>
+        <polygon points="700,45 600,135 800,135" fill="url(#gradient)" stroke="black" stroke-width="5px">
+
+        </polygon>
+        <path d="M45,170 L500,170 L400,220 L800,220" stroke='purple' stroke-width="4" fill="none"></path>
+    </svg>
+</body>
+</html>

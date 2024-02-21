@@ -1,0 +1,177 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+footer, aside .imgtext .texts .text2, aside .imgtext .texts .text1, aside .imgtext .images img, aside .imgtext, aside .heading, aside form, aside, main .images img, main .text, main .heading, main, nav .page, nav img, nav {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 28.5px;
+}
+
+.text {
+  font-size: 19px;
+}
+
+.container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 99%;
+  background-color: whitesmoke;
+}
+
+html {
+  overflow: hidden;
+}
+
+nav {
+  background-image: url(https://www.bluematador.com/hs-fs/hubfs/old-assets/old-theme/Images/sass-webpack-js-hero.png?width=3200&name=sass-webpack-js-hero.png);
+  margin: 0.5% 1% 0 1%;
+  height: 10%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+nav img {
+  margin: 0 10% 0 1%;
+  height: 80%;
+  width: 30%;
+}
+nav .page {
+  height: 30%;
+  padding: 3px;
+  background-color: whitesmoke;
+  margin: auto;
+}
+nav .page a {
+  text-decoration: none;
+}
+nav .page a:visited {
+  color: #CC689A;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  height: 75%;
+}
+
+main {
+  font-size: larger;
+  color: #B27797;
+  background-color: #D3A6C2;
+  text-align: center;
+  width: 60%;
+  margin: 1%;
+}
+main .heading {
+  font-size: larger;
+  background-color: whitesmoke;
+  margin: 1%;
+  width: 98%;
+}
+main .text {
+  background-color: whitesmoke;
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+}
+main .images {
+  display: flex;
+  justify-content: center;
+}
+main .images img {
+  display: inline-flex;
+  justify-self: center;
+  width: 22%;
+  margin: 1.5%;
+}
+
+aside {
+  background-color: #D3A6C2;
+  width: 35%;
+  height: 94%;
+  margin: 1%;
+  color: #B27797;
+}
+aside form {
+  display: block;
+  margin: 1% 0.5% 1% 0.5%;
+  height: 40%;
+}
+aside .heading {
+  height: 10%;
+  margin: 1% 0.5% 1% 0.5%;
+  background-color: whitesmoke;
+}
+aside .imgtext {
+  margin: 1% 0.5% 1% 0.5%;
+  height: 44%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+aside .imgtext .images {
+  width: 30%;
+  height: 100%;
+  margin: 1% 0 1% 0.5%;
+}
+aside .imgtext .images img {
+  margin: 3%;
+  width: 85%;
+  height: 40%;
+}
+aside .imgtext .texts {
+  color: #B27797;
+  margin: 1%;
+  width: 66%;
+  height: 92%;
+}
+aside .imgtext .texts .text1 {
+  height: 43%;
+  margin: 2%;
+  margin-bottom: 3%;
+}
+aside .imgtext .texts .text2 {
+  margin: 2%;
+  height: 43%;
+}
+
+footer {
+  color: white;
+  background-color: #D3A6C2;
+  margin: 0% 1% 0% 1%;
+  height: 12%;
+}
+footer span {
+  display: block;
+  width: 60%;
+  margin: 1%;
+}/*# sourceMappingURL=Lab11.1.css.map */

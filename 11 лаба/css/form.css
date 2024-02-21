@@ -1,0 +1,53 @@
+form {
+    background-color: indigo;
+    color: #ffffff;
+    padding: 1px;
+}
+
+.toblack {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+    font-size: 1.2em;
+    display: inline;
+    margin-left: 10px;
+    float: right;
+    }
+.email{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+    font-size: 1.2em;
+    display: inline;
+    margin-left: 10px;
+    float: right;
+}
+
+.button {
+    background-color: navy;
+    box-shadow: 0 0 4px white;
+    border-radius: 5px;
+    background-color:navy;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: outset 0 0 10px rgba(255, 255, 255, .75);
+    font-size: 1.2em;
+    display: inline;
+    margin-left: 10px;
+    float: right;
+    padding: auto;
+}
+
+span {
+    padding-right: 10px;
+}
+
+.toblack:focus {
+    background-color: black;
+    color: black;
+}
+.sex{
+    display: inline;
+    margin-left: 120px;
+}

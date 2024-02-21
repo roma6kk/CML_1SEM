@@ -1,0 +1,65 @@
+
+.container {
+	height: 400px;
+	display: flex;
+	align-items: center;
+}
+
+figure {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+img {
+	width: 250px;
+	height: 200px;
+	object-fit: contain;
+}
+
+figcaption {
+	width: 250px;
+	height: 50px;
+}
+
+.border {
+	outline: 10px solid red;
+}
+
+.form {
+	width: 250px;
+	height: 200px;
+}
+
+form {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+form label {
+	width: 30%;
+	height: 15%;
+}
+
+form input {
+	width: 50%;
+	height: 15%;
+}
+
+form button {
+	width: 50%;
+	height: 20%;
+}
+
+footer {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}

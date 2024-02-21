@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Lab13.2.xsl"?>
+<students>
+    <student>
+        <name>Студнет 1</name>
+        <grade>10</grade>
+    </student>
+    <student>
+        <name>Студент 2</name>
+        <grade>2</grade>
+    </student>
+    <student>
+        <name>Студент 3</name>
+        <grade>6</grade>
+    </student>
+    <student>
+        <name>Студент 4</name>
+        <grade>9</grade>
+    </student>
+</students>

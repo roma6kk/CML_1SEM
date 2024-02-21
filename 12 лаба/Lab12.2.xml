@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="Lab12.1.css"?>
+<!DOCTYPE books [
+<!ELEMENT books (heading, book, title, author, edition, price)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT book (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ENTITY price "Цена:">
+<!ENTITY author "Автор:">
+<!ENTITY title "Название:">
+<!ENTITY edition "Изданиe:">
+]>
+
+<books> 
+	<heading> Доступные книги по программированию </heading> 
+	<book> 
+		<title>&title; Web Programming</title> 
+		<author>&author; Chrisbates</author> 
+		<edition>&edition; 3</edition> 
+		<price> &price; 300$</price> 
+	</book> 
+	<book> 
+		<title>&title; Internet world-wide-web</title> 
+		<author>&author; Ditel</author> 
+		<edition>&edition; 3</edition> 
+		<price>&price; 400$</price> 
+	</book> 
+	<book> 
+		<title>&title; Computer Networks</title> 
+		<author>&author; Foruouzan</author> 
+		<edition>&edition; 5</edition> 
+		<price>&price; 700$</price> 
+	</book> 
+	<book> 
+		<title>&title; DBMS Concepts</title> 
+		<author>&author; Navath</author> 
+		<edition>&edition; 5</edition> 
+		<price>&price; 600$</price> 
+	</book> 
+	<book> 
+		<title>&title; Linux Programming</title> 
+		<author>&author; Subhitab Das</author> 
+		<edition>&edition; 8</edition> 
+		<price>&price; 300$</price> 
+	</book> 
+</books> 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Lab12.1.css"?>
+	<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Lab12.3.xsd"> 
+		<heading> Доступные книги по программированию </heading> 
+		<book> 
+			<title>Название: Web Programming</title> 
+			<author>Автор: Chrisbates</author> 
+			<edition>Издание: 3</edition> 
+			<price> Цена: 300$</price> 
+		</book> 
+		<book> 
+			<title>Название: Internet world-wide-web</title> 
+			<author>Автор: Ditel</author> 
+			<edition>Издание: 3</edition> 
+			<price>Цена: 400$</price> 
+		</book> 
+		<book> 
+			<title>Название: Computer Networks</title> 
+			<author>Автор: Foruouzan</author> 
+			<edition>Издание: 5</edition> 
+			<price>Цена: 700$</price> 
+		</book> 
+		<book> 
+			<title>Название: DBMS Concepts</title> 
+			<author>Автор: Navath</author> 
+			<edition>Издание: 5</edition> 
+			<price>Цена: 600$</price> 
+		</book> 
+		<book> 
+			<title>Название: Linux Programming</title> 
+			<author>Автор: Subhitab Das</author> 
+			<edition>Издание: 8</edition> 
+			<price>Цена: 300$</price> 
+		</book> 
+	</books> 

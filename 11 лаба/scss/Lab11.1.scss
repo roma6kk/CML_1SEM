@@ -1,0 +1,190 @@
+@import "nullstyle.scss";
+@import "peremennie.scss";
+// ЧАСТЬ 2 ЗАДАНИЯ
+
+@mixin form
+{
+    display: block;
+    margin: 1% 0.5% 1% 0.5%;
+    height: 40%;
+}
+//
+// 3 ЗАДАНИЕ
+@function fz-heading()
+{
+    @return 24px;
+}
+$font-size-heading: fz-heading();
+$font-size-text: 19px;
+$font-size-ratio: 1.5;
+
+.heading {
+  @if $font-size-ratio > 1 {
+    font-size: $font-size-text * $font-size-ratio;
+  } 
+  @else {
+    font-size: $font-size-heading;
+  }
+}
+.text {
+  font-size: $font-size-text;
+}
+//
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 99%;
+    background-color: whitesmoke;
+}
+html{
+    overflow: hidden;
+}
+
+nav {
+    background-image: url(https://www.bluematador.com/hs-fs/hubfs/old-assets/old-theme/Images/sass-webpack-js-hero.png?width=3200&name=sass-webpack-js-hero.png);
+    margin: 0.5% 1% 0 1%;
+    @extend %border;
+    height: 10%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+    img {
+        margin: 0 10% 0 1%;
+        height: 80%;
+        width: 30%;
+        @extend %border;
+    }
+
+    .page {
+        height: 30%;
+        padding: 3px;
+        background-color: whitesmoke;
+        @extend %border;
+        margin: auto;
+
+        a {
+            text-decoration: none;
+
+            &:visited {
+                color: #CC689A;
+            }
+        }
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    height: 75%;
+}
+
+main {
+    font-size: larger;
+    color: #B27797;
+    background-color: #D3A6C2;
+    text-align: center;
+    @extend %border;
+    width: 60%;
+    margin: 1%;
+
+    .heading {
+        font-size: larger;
+        background-color: whitesmoke;
+        margin: 1%;
+        width: 98%;
+        @extend %border
+    }
+
+    .text {
+        background-color: whitesmoke;
+        display: inline-block;
+        @extend %border;
+        width: 30%;
+        margin: 1%;
+    }
+
+    .images {
+        display: flex;
+        justify-content: center;
+
+        img {
+            display: inline-flex;
+            justify-self: center;
+            @extend %border;
+            width: 22%;
+            margin: 1.5%;
+        }
+    }
+}
+
+aside {
+    background-color: $bgrnd_color;
+    @extend %border;
+    width: 35%;
+    height: 94%;
+    margin: 1%;
+    color: #B27797;
+    form {
+       @include form;
+       @extend %border;
+    }
+
+    .heading {
+        height: 10%;
+        margin: 1% 0.5% 1% 0.5%;
+        @extend %border;
+        background-color: whitesmoke;
+    }
+
+    .imgtext {
+        margin: 1% 0.5% 1% 0.5%;
+        height: 44%;
+        @extend %border;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        .images {
+            width: 30%;
+            height: 100%;
+                margin: 1% 0 1% 0.5%;
+            img {
+                margin: 3%;
+                width: 85%;
+                height: 40%;
+                @extend %border;
+
+            }
+        }
+        .texts{
+            color: #B27797;
+            margin: 1%;
+            width: 66%;
+            height: 92%;
+            .text1{
+                height: 43%;
+                margin: 2%;
+                margin-bottom: 3%;
+                @extend %border;
+
+            }
+            .text2{
+                margin: 2%;
+                height: 43%;
+                @extend %border;
+
+            }
+        }
+    }
+}
+footer{
+    @extend %border;
+    color: white;
+    background-color:  #D3A6C2;
+    margin: 0% 1% 0% 1%;
+    height: 12%;
+    span{
+        display: block;
+        width: 60%;
+        margin: 1%;
+    }
+}
